@@ -1,4 +1,4 @@
-# 💬 Messenger App
+# Messenger App
 
 A **React Native** chat application built with **Firebase**.
 
