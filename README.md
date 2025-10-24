@@ -22,7 +22,7 @@ yarn install
 ```
 
 ### 3️⃣ Add Firebase config  
-Create a `.env` file or update your Firebase credentials inside `firebaseConfig.js`.
+Create `firebase.js` file and put your Firebase credentials inside.
 
 ### 4️⃣ Run the app
 ```bash
