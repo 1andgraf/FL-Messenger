@@ -1,4 +1,4 @@
-# Messenger App
+# FL Messenger
 
 A **React Native** chat application built with **Firebase**.
 
