@@ -1,45 +1,20 @@
 # 💬 Messenger App
 
-A sleek, modern **React Native chat application** built with **Firebase** — featuring real-time messaging, custom avatars, animations, dark UI, and interactive chat gestures.
+A **React Native** chat application built with **Firebase**.
 
-![Messenger Preview](https://your-screenshot-url.com)  
-*(Add a screenshot or GIF demo here!)*  
+<img width="532" height="1012" alt="Screenshot 2025-10-24 at 11 09 22" src="https://github.com/user-attachments/assets/a83852f0-e7a9-4ca2-9e52-914b0216a103" />
+<img width="532" height="1012" alt="Screenshot 2025-10-24 at 11 09 30" src="https://github.com/user-attachments/assets/133864ab-ef77-4ccb-bcb9-e644f8a99948" />
+<img width="532" height="1012" alt="Screenshot 2025-10-24 at 11 10 40" src="https://github.com/user-attachments/assets/2df8b81f-90bb-4dc1-8408-1e7e184e74a3" />
+<img width="532" height="1012" alt="Screenshot 2025-10-24 at 11 09 59" src="https://github.com/user-attachments/assets/27d3092d-f623-4e12-a47a-4923e2e55e43" />
+<img width="532" height="1012" alt="Screenshot 2025-10-24 at 11 11 16" src="https://github.com/user-attachments/assets/f6971ce8-6dd3-458d-83b3-84101300bb36" />
+<img width="532" height="1012" alt="Screenshot 2025-10-24 at 11 10 43" src="https://github.com/user-attachments/assets/db57d8fe-1608-4e21-a405-1327a8cbeb2c" />
 
----
 
-## ✨ Features
-
-- ⚡ **Real-Time Messaging** — Powered by Firebase Firestore and Authentication  
-- 🎨 **Custom Avatars & Themes** — Choose your avatar color or emoji  
-- 💬 **Chat System** — Send, delete, reply, and pin messages  
-- 📱 **Responsive Keyboard Interaction** — Smooth animated transitions with keyboard  
-- 🧑‍🤝‍🧑 **Direct Messages (DMs)** — Create private chats instantly  
-- 🔔 **Read Receipts** — Red and green status dots for unread/read messages  
-- 🕓 **Last Seen & Status Tracking** — Displays partner’s last activity  
-- 🔍 **Smart Search** — Find users or start new chats instantly  
-- 📷 **QR Code Profiles** — Each user has a unique QR for easy friend adding  
-- 🧭 **Smooth Navigation** — Built with React Navigation and animated transitions  
-- ☁️ **Firebase Integration** — Authentication, Firestore, and Storage  
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|-------------|----------|
-| ⚛️ React Native | Cross-platform mobile app |
-| 🔥 Firebase | Auth, Firestore, Storage |
-| 💫 Reanimated / Animated API | Smooth gestures & transitions |
-| 🧭 React Navigation | Screen navigation |
-| 🧱 Expo | Fast build & testing environment |
-
----
-
-## 🚀 Getting Started
+## Dev
 
 ### 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/yourusername/messenger-app.git
+git clone https://github.com/1andgraf/FL-Messenger.git
 cd messenger-app
 ```
 
@@ -55,66 +30,5 @@ Create a `.env` file or update your Firebase credentials inside `firebaseConfig.
 
 ### 4️⃣ Run the app
 ```bash
-expo start
+npm start
 ```
-
-> Use Expo Go or an emulator to preview your app.
-
----
-
-## 🧩 Folder Structure
-
-```
-/messenger-app
- ├── /components
- ├── /screens
- │   ├── LoginScreen.js
- │   ├── SignupScreen.js
- │   ├── ChatsScreen.js
- │   ├── ChatViewScreen.js
- │   ├── SettingsScreen.js
- │   └── ProfileScreen.js
- ├── App.js
- ├── firebaseConfig.js
- └── package.json
-```
-
----
-
-## 🔐 Environment Variables
-
-Create `.env` file:
-```env
-FIREBASE_API_KEY=your_api_key
-FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-FIREBASE_PROJECT_ID=your_project
-FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-FIREBASE_MESSAGING_SENDER_ID=1234567890
-FIREBASE_APP_ID=1:1234567890:web:abcdefghijk
-```
-
----
-
-## 🧠 Future Improvements
-
-- 🗂️ Group Chats  
-- 🎥 Voice & Video Calls  
-- 🔊 Voice Messages  
-- 🪄 Message Reactions  
-- 🌐 Multi-language Support  
-
----
-
-## 👨‍💻 Author
-
-**Filip P.**  
-📍 Rovaniemi, Finland  
-💼 Focus: React Native, Firebase, UX Design  
-🌐 [GitHub](https://github.com/yourusername) • [Instagram](https://instagram.com/yourhandle)
-
----
-
-## 🪪 License
-
-MIT License © 2025 [Your Name]  
-Feel free to use and improve this project.
